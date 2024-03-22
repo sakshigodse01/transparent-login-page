@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+</head>
+
+<body>
+    <div class="main">
+        
+        <div class="menu">
+            <input type="radio" id="rd1" name="chk" class="signin" checked><label for="rd1" class="tab1">SignIn</label>
+            <input type="radio" id="rd2" name="chk" class="signup"><label for="rd2" class="tab2">SignUp</label>
+            
+            <div class="log" id="log">
+                <form action="">
+                    
+                    <div class="inp ">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Username" required>
+                    </div>
+                    <div class="inp ">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <button class="b">SignIn</button>
+                    <p>Don't have account? <a href=""> Register</a> </p>
+                </form>
+            </div>
+
+            <div class="reg" id="reg" >
+                <form action="">
+                    <div class="reg-inp ">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Username" required>
+                    </div>
+                    <div class="reg-inp ">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="reg-inp ">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Repeat Password" required>
+                    </div>
+                    <button class="rb">SignUp</button>
+                    <p>Already have account? <a href=""> Login</a> </p>
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>
